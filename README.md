@@ -16,3 +16,7 @@ A really simple text checker built with HTML, CSS and JavaScript.
 - Download and extract the project files.
 - Open `index.html` in your browser.
 - Start typing or paste your text!
+
+## Live demo
+
+[Open TextCheck](https://dm1ka.github.io/text-count/)
