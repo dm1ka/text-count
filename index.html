@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TextCheck</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>TextCheck</h1>
+    <p>Every word counts.</p>
+
+    <label for="text-input">Your text</label>
+    <label for="word-goal">Minimum words</label>
+    <input id="word-goal" type="number" min="0">
+    <textarea id="text-input" placeholder="Paste your text here..."></textarea>
+    <button id="clear-button" type="button">Clear text</button>
+    <p>Characters: <span id="character-count">0</span></p>
+    <p>Words: <span id="word-count">0</span></p>
+    <p id="goal-status"></p>
+    <progress id="word-progress" value="0" max="10"></progress>
+</body>
+</html>
